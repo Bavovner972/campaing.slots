@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = 8
+targetCompatibility = 8
+
+repositories {
+    mavenCentral()
+    maven { url 'https://raw.githubusercontent.com/Zelaux/MindustryRepo/master/repository' }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compileOnly "com.github.Anuken.Arc:arc-core:v146"
+    compileOnly "com.github.Anuken.Mindustry:core:v146"
+}
+
+jar {
+    archiveFileName = "CampaignSlots.jar"
+    from(sourceSets.main.resources)
+}

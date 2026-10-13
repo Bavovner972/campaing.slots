@@ -1,0 +1,10 @@
+{
+  "name": "campaign-slots",
+  "displayName": "Campaign Slots",
+  "author": "you",
+  "main": "campaignslots.CampaignSlots",
+  "description": "Multiple campaign save slots. Open Settings > Campaign Slots.",
+  "version": "1.0",
+  "minGameVersion": "146",
+  "hidden": true
+}
