@@ -160,7 +160,7 @@ public class CampaignSlots extends Mod{
 
     void closeGame(String msg){
         ui.showInfo(msg + " The game will now close - relaunch it to continue.");
-        Timer.schedule(() -> Core.app.exit(), 2.5f);
+           arc.util.Timer.schedule(() -> Core.app.exit(), 2.5f);
     }
 
     boolean guard(){
